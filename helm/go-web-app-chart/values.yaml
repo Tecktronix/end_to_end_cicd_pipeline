@@ -8,7 +8,7 @@ image:
   repository: togunfile/go-web-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "10109957163"
+  tag: "10110023718"
 
 
 ingress:
