@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: go-web-app
-        image: togunfile/go-web-app: {{ .Values.image.tag }}
+        image: togunfile/go-web-app:{{ .Values.image.tag }}
         resources:
           limits:
             memory: "128Mi"
